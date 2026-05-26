@@ -14,10 +14,10 @@ int main() {
     
 
     for (int i = 0; i < n; i++) {
-        printf("Digite o nome do aluno: ");
+        printf("Digite o nome do aluno: \n");
         scanf("%s", aluno[i].nome);
-        printf("Digite a notas do aluno: ");
-        scanf("%f", aluno[i].nota)
+        printf("Digite a notas do aluno: \n");
+        scanf("%f", aluno[i].nota);
         if (aluno[i].nota > aluno[iMaior].nota) { 
             iMaior = i;
         } else if (aluno[i].nota < aluno[iMenor].nota) {
@@ -28,5 +28,5 @@ int main() {
     printf("Maior nota: %.2f", aluno[iMaior].nota);
     printf("\nMenor nota: %.2f", aluno[iMenor].nota); 
     return 0;
-    
+
 }
