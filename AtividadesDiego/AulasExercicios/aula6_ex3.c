@@ -17,6 +17,7 @@ int main() {
         printf("Digite o nome do aluno: ");
         scanf("%s", aluno[i].nome);
         printf("Digite a notas do aluno: ");
+        scanf("%f", aluno[i].nota)
         if (aluno[i].nota > aluno[iMaior].nota) { 
             iMaior = i;
         } else if (aluno[i].nota < aluno[iMenor].nota) {
