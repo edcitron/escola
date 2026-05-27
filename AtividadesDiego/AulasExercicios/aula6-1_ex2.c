@@ -17,6 +17,7 @@ int main() {
     float Vtotal[n];
     for (int i = 0; i < n; i++) {
         printf("\n------------ produto %d ------------------\n", i + 1);
+         i - 1;
         printf("Digite o nome do produto: ");
         scanf("%s", produto[i].nome);
 
