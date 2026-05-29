@@ -7,12 +7,12 @@ typedef struct {
 } infoProduto;
 
 void linha() {
-    printf("\n----------------------------------\n");
+    printf("\n-------------------------------------------\n");
 }
 
 int main() {
     int nP;
-    float iMaior = 0;
+    int iMaior = 0;
     printf("Digite a quantidade de produtos a adicionar: ");
     scanf("%d", &nP);
              
@@ -22,13 +22,13 @@ int main() {
     // entrada de itens
     for (int i = 0; i < nP; i++) {
         printf("\n------------ Produto : %d ------------\n", i + 1);
-        printf("Digite o nome do produto: \n");
+        printf("\nDigite o nome do produto: ");
         scanf("%s", p1[i].nome);
 
-        printf("Digite a quantidade: \n");
+        printf("\nDigite a quantidade: \n");
         scanf("%d", &p1[i].quantidade);
 
-        printf("Digite o preco: \n");
+        printf("\nDigite o preco: \n");
         scanf("%f", &p1[i].preco);
 
         total[i] = p1[i].preco * p1[i].quantidade;
@@ -58,8 +58,8 @@ int main() {
         printf("\n");
    }
    linha();
-   printf("Total geral :                  R$%.2f", totalGeral);
-   //printf("Maior estoque : %s (R$%.2f)", total[iMaior],iMaior); //não entendi como acharei o p1.nome para ser pareio ao IMaior
+   printf("Total geral : R$%.2f", totalGeral);
+   printf("Maior estoque : %s (R$%.2f)", p1[iMaior],iMaior);
   
     return 0;
 

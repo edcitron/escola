@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +9,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola",
-      "program": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/build/Debug/outDebug",
+      "cwd": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios",
+      "program": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
