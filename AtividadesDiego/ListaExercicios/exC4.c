@@ -63,7 +63,18 @@ int main() {
         imprimirResultado(aluno[i]);
     }
     
+    
+    //ranking a nota por ordem crescente
+    
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (CalcularMedia(aluno[j]) > CalcularMedia(aluno[j + 1])) {
+                baseinfo temp = aluno[j];
+                aluno[j] = aluno[j + 1];
+                aluno[j + 1] = temp;
+            }
+        }
+    }  
+    
     return 0;
- 
 }
-

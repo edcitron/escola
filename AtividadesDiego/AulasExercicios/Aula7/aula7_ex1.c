@@ -1,4 +1,3 @@
-
 // codigo copiado do exercicio C1 da lista
 #include <stdio.h>
 
