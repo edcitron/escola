@@ -1,27 +1,36 @@
 #include <stdio.h>
 
 void regressiva(int n) {
-    if (n == 0) printf("Vai"); return;
+    if (n == 0) {
+        printf("Vai\n"); 
+        return;
+    }
     
     printf("%d  ", n);
     regressiva(n - 1);
-    
 }
 
 void progressiva(int n) {
-    
     if (n == 0) {
-        printf("Vai");
+        printf("Vai  ");
+        return;
     }
     
-    progressiva(n + 1);
-    printf("%d", n);
+    progressiva(n - 1);
+    printf("%d  ", n);
 }
 
 int main() {
     int n;
     printf("Limite: ");
-    scanf("%d", &n);    
+    if (scanf("%d", &n) != 1) return 1;    
+    
+    printf("\n--- Regressiva ---\n");
     regressiva(n);
+    
+    printf("\n--- Progressiva ---\n");
     progressiva(n);    
+    
+    printf("\n");
+    return 0;
 }
