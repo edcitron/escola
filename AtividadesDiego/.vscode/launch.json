@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios",
-      "program": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios/build/Debug/outDebug",
+      "cwd": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios/Aula6",
+      "program": "c:/Users/DESKTOP/Desktop/ProjetosCode/escola/AtividadesDiego/AulasExercicios/Aula6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
