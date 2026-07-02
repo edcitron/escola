@@ -1,0 +1,10 @@
+# Ignorar arquivos executáveis
+*.exe
+
+# Ignorar arquivos de objeto intermediários da compilação
+*.o
+
+# Ignorar pastas de output geradas automaticamente
+output/
+build/
+bin/
