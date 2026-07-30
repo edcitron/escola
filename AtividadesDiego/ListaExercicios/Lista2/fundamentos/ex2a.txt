@@ -1,0 +1,5 @@
+fatorial(4) retorna pelos calculos de n * fatorial(n - 1)
+1°- 4 x 3 = 12
+2°- 12 x 2 = 24 
+3°- 24 x 1 = 24
+4°- caso base

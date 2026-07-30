@@ -1,0 +1,14 @@
+ex1 : na busca linear será necessário 30 comparações poi le vai varrer todo o vetor,
+      já no busca binária será necessário apenas 5 comparações, já que a recursão corta
+      o vetor ao meio várias vezes
+
+ex2 : será necessário apenas 8 comparações,
+      para o dobro(256) somamos apenas 1 e 
+      para o quádruplo somamos apenas mais 3 passos 
+
+ex3 : 1 - O(1) : constante
+         2 - O(n) : linear
+         3 - O(n^2) : quadrática
+         4 - O(log n) : logarítmica 
+
+ex4 : não tendi

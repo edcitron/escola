@@ -1,0 +1,5 @@
+Resposta 1: na função recursiva é necessario o caso-base,
+que funciona como ponto de parada e o caso recursivo que
+fica em looping até chegar nmo caso-base
+
+Resposta 2: O(1)  O(log n) O(n)  O(n2)  

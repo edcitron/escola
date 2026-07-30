@@ -1,10 +1,13 @@
-# Ignorar arquivos executáveis
-*.exe
-
-# Ignorar arquivos de objeto intermediários da compilação
-*.o
-
-# Ignorar pastas de output geradas automaticamente
+# Ignorar executáveis do Linux (arquivos sem extensão gerados pela compilação)
+# Se você usa a pasta output, ignore-a por completo:
 output/
-build/
-bin/
+
+# Como no Linux os executáveis não usam .exe, o ideal é ignorar nomes específicos 
+# ou ignorar tudo e incluir apenas os arquivos com extensão .c ou .txt:
+*
+!*/
+!*.c
+!*.h
+!*.txt
+!.gitignore
+!.vscode/
