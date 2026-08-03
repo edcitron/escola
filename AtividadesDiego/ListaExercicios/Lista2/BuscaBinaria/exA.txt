@@ -1,0 +1,15 @@
+resposta : no pior dos caso iremos precisar de 10 passos,
+como a cada passo o vetor é cortado ao meio
+um vetor com 512 espaços é dividio 10x por 2 para chegar em 1, que é o alvo.
+
+explicação:
+1° 512
+2° 256
+3° 128
+4° 64
+5° 32
+6° 16
+7° 8
+8° 4
+9° 2
+10° 1 - alvo
