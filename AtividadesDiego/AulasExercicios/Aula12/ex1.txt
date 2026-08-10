@@ -1,0 +1,56 @@
+Respostas
+
+1) <title>titulo</title>
+
+2) <p id="nome">Bruno</p>
+
+3) hoje, existe apenas um item na lista
+
+4)no <head> existe o nome que fic ana aba do navegador e alguns <Styles> dos elementos da pagina,
+  ja no body tem todos os elementos que existe na pagina
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

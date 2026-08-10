@@ -1,0 +1,16 @@
+Respostas
+
+1) Dentro do body troque "<title>Perfil</title>" para "<title>Meu perfil</title>
+
+2) Dentro do body troque "<p id=" nome ">Nome: Fulano de Tal</p>" por <p id=" nome ">Nome: Eduardo</p>"
+
+
+3) <ul id=" hobbies ">
+    <li >Programar</li>
+    <li >Jogar</li>
+    <li >Dançar</li>
+   </ul>
+
+
+4) no body adicioe <button id="save-button">Salvar</button>
+
