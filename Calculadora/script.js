@@ -47,7 +47,6 @@ for (let i = 0; i < buttonOperadores.length; i++) {
 // Limitaçãd da quebra
 buttonQuebra.addEventListener('click', function() {
     if (quebra == true) {
-        //visor.innerText += ".";
         quebra = false;
     } 
 })
