@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(151, 151, 151);
+    
+}
+
+#corpo {
+    background-color: rgb(100, 100, 100);
+    height: 650px;
+    width: 510px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 4px;
+    padding: 20px 20px 5px 20px;
+    
+}
+
+
+
+#visor {
+    grid-column: span 4;
+    background-color: rgb(255, 250, 245);
+    height: 100px;
+    width: 495px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: end;
+    color: rgb(65, 65, 65);
+    font-size: 80px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.teclaNum {
+    background-color: rgba(175, 174, 174, 0.486);
+    color: whitesmoke;
+    height: 70px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center;
+}
+.teclaOpera {
+    background-color: rgba(78, 78, 78, 0.486);
+    color: whitesmoke;
+    height: 70px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+#resultadoButton {
+    background-color: rgba(99, 224, 247, 0.726);
+    color: whitesmoke;
+    height: 70px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+
+#CEbutton {
+    grid-column: span 4;
+    width: auto;
+    background-color:  rgba(255, 0, 0, 0.527);
+}
+
