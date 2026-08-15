@@ -1,0 +1,69 @@
+body {
+  /* Substitua pelas cores e direção que preferir */
+  background-image: linear-gradient(135deg, #0a4212, #6edf8a, #1b1b2f);
+  
+  /* Garante que o gradiente cubra toda a altura da janela do navegador */
+  min-height: 100vh;
+  
+  /* Evita que o fundo se repita caso o conteúdo seja menor que a tela */
+  background-repeat: no-repeat;
+  
+  /* Remove a margem padrão do navegador para o fundo ir até as bordas */
+  margin: 0;
+}
+
+
+.corpo {
+    background-color: rgba(165, 163, 163, 0.096);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.titulo {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    color: antiquewhite;
+
+}
+
+.campoResultado {
+    height: 40%;
+    width: 70%;
+    background-color: #ffffff85;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 20px 6px rgb(47 177 4);
+    text-align: center;
+
+}
+
+#resultadoSenha {
+    margin-top: 45px;
+    color: #000000;
+    font-size: 50px;
+    align-self: center;
+
+}
+
+#gerador {
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 0 8px 32px 0 rgba(194, 180, 180, 0.9);
+    border-radius: 20px;
+    font-size: large;
+    background-color: green;
+    color: aliceblue;
+    font-style: initial;
+}
