@@ -1,11 +1,14 @@
 const listaTarefas = document.getElementById('listaTarefas');
 const btnadicionar = document.getElementById('btnAdicionar');
 
+let textoTarefa = document.getElementById("inputTarefa");
+
 // Função de criação (A Fábrica)
 function adicionarItem() {
-    let textoTarefa = document.getElementById("inputTarefa");
     let novoItem = document.createElement('li');
+    let btnConcluido = document.createElement('input')
     let btnDeletar = document.createElement('button');
+    let box = document.createElement('span')
 
 
     if (textoTarefa.value === "") {
@@ -13,11 +16,15 @@ function adicionarItem() {
         return;
     } 
 
+    box.innerText = textoTarefa.value + " ";
+    box.classList.add("niga")
     novoItem.innerText = textoTarefa.value + " ";
     novoItem.classList.add("object");
     btnDeletar.innerText = "Apagar";
     btnDeletar.classList.add("btnDelete")
+    btnConcluido.type = 'checkbox';
     textoTarefa.value = ""
+    novoItem.appendChild(btnConcluido);
     novoItem.appendChild(btnDeletar);
     listaTarefas.appendChild(novoItem); 
 
@@ -29,6 +36,11 @@ function adicionarItem() {
 }
 
 btnadicionar.addEventListener('click', adicionarItem);
+textoTarefa.addEventListener('keydown', function(event) {
+    if (event.key === "Enter") {
+        adicionarItem();
+    }
+});
 
 
 
