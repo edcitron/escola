@@ -17,7 +17,7 @@ function adicionarItem() {
     } 
 
     box.innerText = textoTarefa.value + " ";
-    box.classList.add("niga")
+    box.classList.add("check")
     novoItem.innerText = textoTarefa.value + " ";
     novoItem.classList.add("object");
     btnDeletar.innerText = "Apagar";
@@ -31,6 +31,15 @@ function adicionarItem() {
     //função de remoção
     btnDeletar.addEventListener('click', function() {
         novoItem.remove();
+    });
+    btnConcluido.addEventListener('change', function() {
+        if(btnConcluido.checked) {
+            novoItem.classList.add("concluido")
+            novoItem.style.backgroundColor = "#898989"
+        } else {
+            novoItem.classList.remove("concluido")
+            novoItem.style.backgroundColor = "#f4f4f4"
+        }
     });
 
 }
