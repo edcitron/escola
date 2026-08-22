@@ -18,12 +18,12 @@ function adicionarItem() {
 
     box.innerText = textoTarefa.value + " ";
     box.classList.add("check")
-    novoItem.innerText = textoTarefa.value + " ";
-    novoItem.classList.add("object");
     btnDeletar.innerText = "Apagar";
     btnDeletar.classList.add("btnDelete")
+    novoItem.classList.add("object");
     btnConcluido.type = 'checkbox';
     textoTarefa.value = ""
+    novoItem.appendChild(box); 
     novoItem.appendChild(btnConcluido);
     novoItem.appendChild(btnDeletar);
     listaTarefas.appendChild(novoItem); 
@@ -34,10 +34,10 @@ function adicionarItem() {
     });
     btnConcluido.addEventListener('change', function() {
         if(btnConcluido.checked) {
-            novoItem.classList.add("concluido")
+            box.classList.add("concluido")
             novoItem.style.backgroundColor = "#898989"
         } else {
-            novoItem.classList.remove("concluido")
+            box.classList.remove("concluido")
             novoItem.style.backgroundColor = "#f4f4f4"
         }
     });
@@ -45,6 +45,7 @@ function adicionarItem() {
 }
 
 btnadicionar.addEventListener('click', adicionarItem);
+
 textoTarefa.addEventListener('keydown', function(event) {
     if (event.key === "Enter") {
         adicionarItem();
